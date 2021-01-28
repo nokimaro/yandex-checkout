@@ -155,7 +155,7 @@ and relationship abilities which you can utilize.
 ### Relationship
 
 You can make any existing Eloquent model "payable" and attach Yandex Checkouts to it.
-Use `Orkhanahmadov\YandexCheckout\Traits\HandlesYandexCheckout` trait in your existing model to establish direct model relationship.
+Use `Orkhanahmadov\YandexCheckout\Models\Traits\HandlesYandexCheckout` trait in your existing model to establish direct model relationship.
 
 ``` php
 use Illuminate\Database\Eloquent\Model;
